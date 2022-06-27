@@ -1,0 +1,281 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.Main {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Main_content {
+  background-color: #dacaca79;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about_position {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about_user{
+  color: #ffffff;
+  margin: 20px;
+}
+
+.about_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  margin-bottom: 10px;
+}
+
+
+.Projects {
+  margin-bottom: 50px;
+}
+
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.Work a{
+  color: #000000;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.Education {
+  margin-top: 50px;
+}
+
+.education {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.Management {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.sidebar {
+  padding-top: 40px;
+  width: 370px;
+  background-color: #1e2939;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 30px;
+}
+
+.contacts,
+.tech_skills,
+.soft_skills {
+  margin-left: 40px;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.tech_tkills {
+  margin-bottom: 45px;
+}
+.listskills {
+  color: white;
+  padding: 0px;
+  margin-left: 17px;
+}
+.con {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tel {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+}
+
+.sidebar_contacts {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.tech_skills_title {
+  color: #fb6d3a;
+}
+
+.ftl {
+  color: #000000;
+}
+
+.tech_skills_text {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft_skills_title {
+  color: #fb6d3a;
+}
+
+.soft_skills_text {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .Main,
+  .Main_content,
+  .sidebar{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .Main_content {
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .about_user{
+  text-align: center;
+  }
+
+  .contacts{
+    margin-left: 100px;
+  }
+
+  .photo{
+    margin-left: 70px;
+    width: 200px;
+  }
+
+}
+
