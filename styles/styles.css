@@ -12,7 +12,9 @@ body {
 .Main_content {
   background-color: #dacaca79;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 25px 55px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .about {
@@ -34,6 +36,14 @@ body {
   margin: 20px;
 }
 
+.about_user p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
+text-decoration: underline;
+}
+
 .about_name {
   font-style: normal;
   font-weight: bold;
@@ -50,6 +60,7 @@ body {
 .projects-list {
   padding: 0;
   margin-left: 15px;
+  font-size: 18px;
 }
 
 .title {
@@ -59,12 +70,12 @@ body {
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .project-item {
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+
   line-height: 24px;
   color: #000000;
 }
@@ -73,7 +84,7 @@ body {
 .project-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #595959;
 }
@@ -87,77 +98,36 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
 }
 
 .Work a{
-  color: #000000;
+  color: #000;
 }
 
 .work-position {
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
-.organization {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fb6d3a;
-}
 
 .period {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #000000;
+  color: #000;
   margin-bottom: 10px;
-}
-.line {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #000000;
 }
 
 .work-list {
   padding: 0;
   margin-left: 15px;
-}
-
-.work-list-title {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  list-style-type: none;
 }
 
 .Education {
   margin-top: 50px;
 }
 
-.education {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fb6d3a;
-}
-
 .Management {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
+  color: #000;
 }
 
 .sidebar {
@@ -178,38 +148,48 @@ body {
 
 .contacts,
 .tech_skills,
-.soft_skills {
+.soft_skills,
+.skills,
+.about_user {
   margin-left: 40px;
 }
+
 .contacts {
   margin-bottom: 50px;
 }
+
 .tech_tkills {
   margin-bottom: 45px;
 }
+
 .listskills {
   color: white;
   padding: 0px;
   margin-left: 17px;
 }
-.con {
+
+.icon {
   color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  margin-right: 15px;
 }
 
 .tel {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
-  margin-left: 10px;
+  text-decoration: none;
 }
 
-.sidebar_contacts {
+.tel:hover{
+  color: aqua;
+}
+
+
+.sidebar_contacts,
+.sidebar_skills,
+.skills_list {
   color: #ffffff;
   font-style: normal;
   font-weight: bold;
@@ -218,9 +198,6 @@ body {
   margin-bottom: 10px;
 }
 
-.tech_skills_title {
-  color: #fb6d3a;
-}
 
 .ftl {
   color: #000000;
@@ -228,10 +205,6 @@ body {
 
 .tech_skills_text {
   color: rgb(0, 0, 0);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 .soft_skills_title {
@@ -240,10 +213,6 @@ body {
 
 .soft_skills_text {
   color: white;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 @media screen and (max-width: 576px) {
